@@ -38,7 +38,7 @@ halflifeB = str2double(answer{2}); % Half life time of substance B
 % Prompt which gathering name of substances from user
 prompt = {'Provide a name for substance A:', 'Provide a name for substance B:'};
 title = 'Provide substance names';
-defaultValues = {'4-CMC', 'Ketamine'};
+defaultValues = {'3-MMC', 'Ketamine'};
 answer = inputdlg(prompt, title, dims, defaultValues);
 
 % Names of substances
